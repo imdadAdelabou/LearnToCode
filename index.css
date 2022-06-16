@@ -50,7 +50,6 @@ section {
 
 .right__content .head {
     width: 100%;
-    height: 38px;
     border-radius: 5px;
     background-color: #5D54A3;
     margin-bottom: 18px;
@@ -63,7 +62,7 @@ section {
 }
 
 .center h4 {
-    margin-top: 10px;
+    margin-top: 18px;
 }
 
 input {
@@ -99,4 +98,47 @@ button {
 .cRed {
     color: hsl(0, 100%, 74%);
     font-weight: bold;
+}
+
+@media screen and (max-width: 763px) {
+    section {
+        display: block;
+        width: 90%;
+        margin: 0;
+    }
+    /* .left__content {
+        margin: 0;
+    } */
+    .left__content h1 {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .card {
+        width: 90%;
+        border-radius: 10px;
+        margin: 20px auto;
+        padding: 24px 22px 8px 22px;
+    }
+    .left__content p {
+        width: 90%;
+        text-align: center;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+    .right__content {
+        width: 100%;
+    }
+    .right__content .head {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .center h4 {
+        width: 170px;
+        margin-top: 18px;
+        text-align: center;
+    }
+    .spacer {
+        margin-top: 170px;
+    }
 }
